@@ -20,9 +20,6 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <button onClick={() => swiper?.slidePrev()}>Prev</button>
-        <button onClick={() => swiper?.slideNext()}>Next</button>
-
         <Swiper
           onSwiper={setSwiper}
           slidesPerView={'auto'}
