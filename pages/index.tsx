@@ -30,8 +30,8 @@ const Home: NextPage = () => {
               <SwiperSlide className={styles.card} key={index}>
                 <Image src={item.coverImage}
                   alt="Project"
-                  layout="fill"
-                  objectFit="cover" />
+                  fill
+                  style={{ objectFit: "cover" }} />
               </SwiperSlide>
             ))}
         </Swiper>
